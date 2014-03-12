@@ -3,7 +3,7 @@ background:url("wooden_background.jpg") repeat scroll 0 0 #282828;
  }
 
 
-input, textarea { 
+input.text, textarea { 
 	padding: 8px;
 	border: solid 1px #E5E5E5;
 	font: normal 12px Verdana, Tahoma, sans-serif;
@@ -45,6 +45,15 @@ input:focus, textarea:focus {
 	-webkit-border-radius: 5px;
 	cursor:pointer;
 	}
+input.checkbox 
+	{width: 10px;
+	padding: 10px 14px;
+	background: #617798;
+	font-size: 14px;
+	color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	cursor:pointer;}
 #form-div { 
 -moz-border-radius:12px 12px 12px 12px;
 -webkit-border-radius: 12px 12px 12px 12px;
