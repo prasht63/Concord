@@ -56,7 +56,7 @@ function assign()
        setTimeout(function()
 	    {
           addMarker();
-        }, i*(1000/document.getElementById('persec').value);//timeout
+        }, i*(1000/document.getElementById('persec').value));//timeout
         } //adding marker fns
 		 
 	function addMarker() 
